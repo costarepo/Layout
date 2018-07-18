@@ -1,0 +1,148 @@
+@charset 'utf-8';
+
+/* Title */
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+/* Footer */
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+/* noticias titles*/
+@import url('https://fonts.googleapis.com/css?family=Itim|Limelight');
+@import url('https://fonts.googleapis.com/css?family=Itim|Limelight|Stardos+Stencil');
+
+
+body {
+    background-color: rgba(203, 203, 203,.8);
+}
+
+
+#interface {
+    background-color: white;
+    margin: 0.2% 1% auto 1%;
+    box-shadow: 3px 3px rgba(0,0,0,.3);
+    border-radius: 7px;
+}
+/* Header */
+header {
+    /*position: fixed;*/
+    background-color: rgb(25, 130, 153);
+    padding:1%;
+    width: 100%;
+    height: 5%;
+    margin-bottom:1%;
+    box-shadow: 2px 3px rgba(0,0,0,.5);
+}
+
+
+#headerLeft img {
+    width: 3%;
+}
+
+#headerLeft h1 {
+    position: relative;
+    margin-bottom:0.2%;
+    font-family : 'Titan One', cursive;
+    text-shadow: 2px 2px grey;
+    color: white;
+    font-size: 2em;
+}
+
+#headerRight {
+    float: right;
+    margin-top:-4%;
+}
+
+#headerRight a {
+    color: orange;
+}
+#iconLogin {
+    width: 20%; 
+    color:white;
+}
+
+
+/* Section */
+
+section {
+    float: left;
+    clear:both;
+    border-right: 2px solid rgb(25, 130, 153);
+    padding:3%;
+    max-width: 60%;
+}
+section h1 {
+    font-size: 2.5em;
+    margin-top:1.5%;
+    margin-bottom:3%;
+    border-bottom: 1px dashed rgb(25, 130, 153);
+    font-family: 'Itim', cursive;
+    font-family: 'Limelight', cursive;
+    color: rgb(92, 91, 91);
+}
+
+.noticia {
+    margin-bottom: 1%;
+    max-width: 85%;
+    padding:1%;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.noticia h2 {
+    color: rgb(38, 37, 37);
+    font-size: 1.5em;
+    margin-bottom: 1%;
+    font-family: 'Itim', cursive;
+    font-family: 'Limelight', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Limelight', cursive;
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.noticia p {
+    color: rgb(58, 57, 57);
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+aside {
+    padding: 1%;
+    float:right;
+}
+
+.clear {
+    clear:both;
+}
+
+footer {
+    margin-top: 1%;
+    border-radius: 9px;
+    height: 50px;
+    width: 100%;
+    background:rgb(25, 130, 153);
+}
+
+#footerLeft {
+    margin-left: 4%;
+    font-family: 'Itim', cursive;
+    color:white;
+    float:left;
+}
+
+#footerLeft img {
+    margin-top:1%;
+    height: 2%;
+    width: 4%;
+}
+
+#footerRight {
+    margin-right: 3%;
+    font-family: 'Itim', cursive;
+    color:white;
+    float: right;
+}
+
+#footerRight img {
+    margin-top: 3%;
+    height: 7%;
+    width: 7%;
+}
